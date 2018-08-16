@@ -11,8 +11,6 @@ note: with 2048 samples per chunk, I'm getting 20FPS
 """
 
 import pyaudio
-import os
-import struct
 import numpy as np
 import matplotlib.pyplot as plt
 import time
@@ -23,7 +21,7 @@ from tkinter import TclError
 #%matplotlib tk
 
 # constants
-Chunk = 1024 * 4             # samples per frame
+Chunk = 1024 * 8  # samples per frame
 Format = pyaudio.paInt16     # audio format (bytes per sample?)
 Channels = 1                 # single channel for microphone
 Rate = 44100                 # samples per second
