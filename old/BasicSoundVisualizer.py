@@ -23,7 +23,7 @@ from tkinter import TclError
 #%matplotlib tk
 
 # constants
-Chunk = 1024 * 2             # samples per frame
+Chunk = 1024 * 4             # samples per frame
 Format = pyaudio.paInt16     # audio format (bytes per sample?)
 Channels = 1                 # single channel for microphone
 Rate = 44100                 # samples per second
