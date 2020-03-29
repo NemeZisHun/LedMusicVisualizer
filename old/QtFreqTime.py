@@ -4,7 +4,7 @@
 # import pyaudio
 # import numpy as np
 # from pyqtgraph.Qt import QtGui, QtCore
-# immport pyqtgraph as pg
+# import pyqtgraph as pg
 # import sys
 # import struct
 
